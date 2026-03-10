@@ -72,7 +72,7 @@ const content = {
 
 const Section = ({ bgImage, children }: { bgImage: string, children: React.ReactNode }) => (
   <section
-    className="relative min-h-screen flex items-center justify-center py-24 px-6 bg-fixed bg-cover bg-center"
+    className="relative min-h-screen flex items-center justify-center py-24 px-6 bg-scroll md:bg-fixed bg-cover bg-center bg-no-repeat"
     style={{ backgroundImage: `url(${bgImage})` }}
   >
     <div className="absolute inset-0 bg-black/60" />

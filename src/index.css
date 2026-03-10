@@ -5,3 +5,12 @@
   --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
   --font-serif: "Cormorant Garamond", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
+
+/* Виправлення фону для мобільних пристроїв */
+@media (max-width: 1024px) {
+  .section-bg, [style*="background-attachment: fixed"] {
+    background-attachment: scroll !important;
+    background-size: cover !important;
+    background-position: center center !important;
+  }
+}
