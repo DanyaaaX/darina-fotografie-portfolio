@@ -264,7 +264,7 @@ export default function App() {
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.6 }}
             viewport={{ once: true }}
-            href="https://instagram.com/darina.fotografie" 
+            href="https://instagram.com/darik.photog" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-block border border-white/30 px-10 py-5 text-[10px] tracking-[0.3em] uppercase hover:bg-white hover:text-black transition-colors duration-500"
